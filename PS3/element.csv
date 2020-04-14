@@ -1,0 +1,19 @@
+﻿Metabolite,C,H,N,O,P,,,
+ATP,10,16,5,13,3,,,
+Aspartate,4,7,1,4,0,,,
+AMP,10,14,5,7,1,,,ATP + Citrulline + Aspartate <=> AMP + Diphosphate + Argininosuccinate
+Diphosphate,0,4,0,7,2,,,
+Argininosuccinate,10,18,4,6,0,,,Argininosuccinate <=> Fumarate + L-Arginine
+Fumarate,4,4,0,4,0,,,
+Arginine,6,14,4,2,0,,,Arginine + H2O <=> Ornithine + Urea
+H2O,0,2,0,1,0,,,
+Ornithine,5,12,2,2,0,,,Carbamoyl phosphate + Ornithine <=> Orthophosphate + Citrulline
+Urea,1,4,2,1,0,,,
+Carbamoyl phosphate ,1,4,1,5,1,,,2 L-arginine + 3 NADPH + 3 H+ + 4 O2 = 2 L-citrulline + 2 nitric oxide + 3 NADP+ + 4 H2O (overall reaction)
+Orthophosphate,0,3,0,4,1,,,
+Citrulline,6,13,3,3,0,,,
+NADPH,21,30,7,17,3,,,
+Oxygen,0,0,0,2,0,,,
+H+,0,1,0,0,0,,,
+NADP+,21,29,7,17,3,,,
+Nitric oxide ,0,0,1,1,0,,,

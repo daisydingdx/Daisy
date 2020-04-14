@@ -1,0 +1,45 @@
+// --------------------------------------------------- //
+// Atom file
+// version: 1.0
+// J.Varner, 3/15/18
+//
+// Record:
+// Metabolite,C,H,N,O,P,S
+// --------------------------------------------------- //
+
+// species in the box -
+M_Orthophosphate_c,0,3,0,4,1,0
+M_Carbamoyl_phosphate_c,1,4,1,5,1,0
+M_Urea_c,1,4,2,1,0,0
+M_Nitric_oxide_c,0,0,1,1,0,0
+M_N-(L-Arginino)succinate_c,10,18,4,6,0,0
+M_L-Ornithine_c,5,12,2,2,0,0
+M_L-Citrulline_c,6,13,3,3,0,0
+M_Diphosphate_c,0,4,0,7,2,0
+M_Fumarate_c,4,4,0,4,0,0
+M_L-Arginine_c,6,14,4,2,0,0
+M_L-Aspartate_c,4,7,1,4,0,0
+M_Oxygen_c,0,0,0,2,0,0
+M_NADP_c,21,29,7,17,3,0
+M_NADPH_c,21,30,7,17,3,0
+M_ATP_c,10,16,5,13,3,0
+M_AMP_c,10,14,5,7,1,0
+M_H2O_c,0,2,0,1,0,0
+M_H_c,0,1,0,0,0,0
+
+// boundary species -
+M_ATP_b,10,16,5,13,3,0
+M_AMP_b,10,14,5,7,1,0
+M_Oxygen_b,0,0,0,2,0,0
+M_NADP_b,21,29,7,17,3,0
+M_NADPH_b,21,30,7,17,3,0
+M_Diphosphate_b,0,4,0,7,2,0
+M_Carbamoyl_phosphate_b,1,4,1,5,1,0
+M_Urea_b,1,4,2,1,0,0
+M_Nitric_oxide_b,0,0,1,1,0,0
+M_L-Aspartate_b,4,7,1,4,0,0
+M_Fumarate_b,4,4,0,4,0,0
+M_Diphosphate_b,0,4,0,7,2,0
+M_Orthophosphate_b,0,3,0,4,1,0
+M_H_b,0,1,0,0,0,0
+M_H2O_b,0,2,0,1,0,0

@@ -1,0 +1,7 @@
+1,ec:6.3.4.5,rn:R01954	L-Citrulline:L-aspartate ligase (AMP-forming); ATP + L-Citrulline + L-Aspartate <=> AMP + Diphosphate + N-(L-Arginino)succinate
+2,ec:4.3.2.1,rn:R01086	2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming); N-(L-Arginino)succinate <=> Fumarate + L-Arginine
+3,ec:3.5.3.1,rn:R00551	L-Arginine amidinohydrolase; L-Arginine + H2O <=> L-Ornithine + Urea
+4,ec:2.1.3.3,rn:R01398	Carbamoyl-phosphate:L-ornithine carbamoyltransferase; Carbamoyl phosphate + L-Ornithine <=> Orthophosphate + L-Citrulline
+5,ec:1.14.13.39,rn:R00557	L-arginine,NADPH:oxygen oxidoreductase (nitric-oxide-forming); 2 L-Arginine + 4 Oxygen + 3 NADPH + 3 H+ <=> 2 Nitric oxide + 2 L-Citrulline + 3 NADP+ + 4 H2O
+5,ec:1.14.13.39,rn:R00558	L-arginine,NADPH:oxygen oxidoreductase (N-(omega)-hydroxyarginine-forming); L-Arginine + Oxygen + NADPH + H+ <=> N(omega)-Hydroxyarginine + NADP+ + H2O
+5,ec:1.14.13.39,rn:R00111	N-(omega)-Hydroxyarginine,NADPH:oxygen oxidoreductase (nitric-oxide-forming); NADPH + 2 N(omega)-Hydroxyarginine + 2 Oxygen + H+ <=> NADP+ + 2 Nitric oxide + 2 L-Citrulline + 2 H2O

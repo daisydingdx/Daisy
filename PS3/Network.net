@@ -1,0 +1,36 @@
+
+// reaction type flags
+// 0 = metabolic reaction
+// 1 = transcription initiation
+// 2 = transcription elongation
+// 3 = translation initiation
+// 4 = translation elongation
+// 5 = enzyme degradation
+// 6 = mRNA degradation
+// 7 = infrastructure
+// 8 = cell growth
+
+// ------------------------------------------------ //
+#pragma::metabolism_handler
+v1,0,[],M_ATP_c+M_L-Citrulline_c+M_L-Aspartate_c,M_AMP_c+M_Diphosphate_c+M_N-(L-Arginino)succinate_c,0,inf,[]
+v2,0,[],M_N-(L-Arginino)succinate_c,M_Fumarate_c+M_L-Arginine_c,0,inf,[]
+v3,0,[],M_L-Arginine_c+M_H2O_c,M_L-Ornithine_c+M_Urea_c,0,inf,[]
+v4,0,[],M_Carbamoyl_phosphate_c+M_L-Ornithine_c,M_Orthophosphate_c+M_L-Citrulline_c,0,inf,[]
+v5,0,[],2*M_L-Arginine_c+4*M_Oxygen_c+3*M_NADPH_c+3*M_H_c,2*M_Nitric_oxide_c+2*M_L-Citrulline_c+3*M_NADP_c+4*M_H2O_c,-inf,inf,[]
+
+// Transport reactions -
+b1,0,[],[],M_Carbamoyl_phosphate_c,0,inf,[]
+b2,0,[],[],M_L-Aspartate_c,0,inf,[]
+b3,0,[],M_Fumarate_c,[],0,inf,[]
+b4,0,[],M_Urea_c,[],0,inf,[]
+b5,0,[],[],M_ATP_c,0,inf,[]
+b6,0,[],M_AMP_c,[],0,inf,[]
+b7,0,[],M_Diphosphate_c,[],0,inf,[]
+b8,0,[],M_Orthophosphate_c,[],0,inf,[]
+b9,0,[],[],M_Oxygen_c,0,inf,[]
+b10,0,[],[],M_NADPH_c,0,inf,[]
+b11,0,[],[],M_H_c,0,inf,[]
+b12,0,[],M_Nitric_oxide_c,[],0,inf,[]
+b13,0,[],M_NADP_c,[],0,inf,[]
+b14,0,[],M_H2O_c,[],-inf,inf,[]
+// ------------------------------------------------ //
